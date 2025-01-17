@@ -1,0 +1,58 @@
+/* website font-family */
+
+.open-sans-web-font {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* nav style */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav ul li{
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+     
+}
+nav ul li a{
+    color: black;
+    font-size: 1.2rem;
+}
+.site-name{
+    font-size: 2rem;
+}
+/* header style */
+.primary-background{
+    background-color: rgba(229, 84, 115, 0.1);
+}
+ 
+/* shared style */
+.section-width{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+}
+/* banner style */
+.banner{
+    display: flex;
+}
