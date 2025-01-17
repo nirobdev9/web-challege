@@ -59,7 +59,7 @@ nav ul li a{
     margin-bottom: 120px;
 }
 /* site title and Description */
-.banner-title{
+.banner-title, .feature-title{
     color: #272727;
     font-size: 62px;
     font-weight: 800;
@@ -82,4 +82,30 @@ nav ul li a{
 }
 .hero-img{
     width: 495px;
+}
+/* feature flower section */
+.feature-flower-box{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.feature-content{
+    text-align: center;
+}
+.box-one{
+    background-color:  rgba(167, 33, 98, 0.15);
+    
+}
+.box-two{
+    background-color: rgba(5, 151, 160, 0.15);
+}
+.box-three{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+.box-one, .box-two, .box-three{
+    width: 385px;
+    height: 480px;
+    padding: 85px 60px 0 60px;
+    text-align: center;
 }
