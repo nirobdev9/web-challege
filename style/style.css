@@ -45,14 +45,41 @@ nav ul li a{
     margin: 0 auto;
 
 }
-.{
-    color: #272727;
-    font-size: 80px;
-    font-weight: 800;
-}
+.btn{
+    background-color: #E55473;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    padding: 16px 35px;
+    border: none;
+    border-radius: 8px;
 
 }
+.site-margin{
+    margin-bottom: 120px;
+}
+/* site title and Description */
+.banner-title{
+    color: #272727;
+    font-size: 62px;
+    font-weight: 800;
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 15px;
+}
+
 /* banner style */
 .banner{
     display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+
+}
+.banner-content{
+    width: 553px;
+}
+.hero-img{
+    width: 495px;
 }
